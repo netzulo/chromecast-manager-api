@@ -1,0 +1,29 @@
+{
+  "name": "chromecast-manager-api",
+  "version": "0.0.0",
+  "description": "chromecast-manager-api",
+  "main": "app.js",
+  "author": {
+    "name": "netzulo"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "test": "nodemon app.js"
+  },
+  "repository":{
+    "type": "git",	      
+    "url":"https://github.com/netzulo/chromecast-manager-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/netzulo/chromecast-manager-api/issues"
+  },
+  "homepage": "https://github.com/netzulo/chromecast-manager-api",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "chromecasts": "^1.9.0",
+    "express": "^4.15.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
